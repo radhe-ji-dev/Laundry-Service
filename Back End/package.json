@@ -4,7 +4,10 @@
   "description": "Laundry Project",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server",
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix Front End",
+    "dev": "concurrently \"npm run server\" \"npm run Front End\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Team-7",
@@ -14,6 +17,7 @@
     "body-parser": "^1.19.1",
     "concurrently": "^7.0.0",
     "cors": "^2.8.5",
+    "dayjs": "^1.10.7",
     "express": "^4.17.2",
     "express-validation": "^3.0.8",
     "express-validator": "^6.14.0",
