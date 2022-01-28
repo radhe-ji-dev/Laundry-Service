@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require("bcrypt");
 const cors = require('cors')
 const app = express();
-const {connection} = require('./dbconnection')
+
 app.use(cors());// "*" is for to make api's respond to any server..
 app.use(bodyParser())
 const secret = "team7";
@@ -13,14 +13,9 @@ const secret = "team7";
 
 // DB connection ------------------
 // username and password for db is team7
-mongoose.connect(connection);
-
-mongoose.connection.on("connected", () => {
-  console.log("Db Connected Sucessfully");
-});
-mongoose.connection.on("error", (err) => {
-  console.log("error connecting", err);
-});
+mongoose.connect('mongodb+srv://team7:team7@laundryproject.bwak7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority').then(
+    ()=> console.log('db Connected')
+);
 
 
 const userRoutes = require('./routes/loginAndRegister')

@@ -1,0 +1,260 @@
+
+.registerpage{
+    width:100%;
+}
+.rnavbar{
+    height:80px;
+    width:100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 48px #0000000F;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.rheading1{
+    top: 30px;
+    left: 119px;
+    width: 108px;
+    height: 27px;
+    text-align: left;
+    font: normal normal 900 28px/27px Avenir;
+    letter-spacing: 1.8px;
+    color: #5861AE;
+    text-transform: uppercase;
+    opacity: 1;
+    padding-left: 100px;
+}
+.rnavright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 20px;
+}
+.rnavright{
+    padding-left: 55%;
+}
+.rnavright h4{
+    padding-left:50px ;
+    font: normal normal normal 18px/19px Avenir;
+}
+.rbtn1{
+    padding: 25px;
+    font: normal normal normal 800 20px/26px Avenir;
+    background: #5861AE 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    color: #FFFFFF;
+}
+/* Main Content */
+.rmaincontent1{
+    display:flex;
+    width:100%;
+}
+.rleftmain1{
+    width:30%;
+    height:500px;
+    margin-top: 100px;
+}
+.rleftcontent1{
+    margin-left: 100px;
+}
+.rheading21{
+    text-align: left;
+    font: normal normal 900 62px/80px Avenir;
+    letter-spacing: 0px;
+    color: #5861AE;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.rdescription11{
+    font: normal normal normal 21px/42px Avenir;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.rhaveaccount11{
+    text-align: left;
+    font: normal normal normal 16px/26px Avenir;
+    letter-spacing: 0.64px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.rlogin-btn1{
+    border: 2px solid #4552C1;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal bold 15px/20px Open Sans;
+    letter-spacing: 0.3px;
+    color: #4552C1;
+    background-color: white;
+    padding:10px 20px;
+}
+
+/* Right Side Main */
+.rrightmain1{
+    background-color: #B9C0FD1A;
+    width: 70%;
+    height:600px;
+    border-left: 2px solid #0000000B;
+}
+.rrightcontent1{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.rheading31{
+    text-align: left;
+    font: normal normal normal 20px/30px Avenir;
+    letter-spacing: 1.28px;
+    color: #5861AE;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.rregistrationinputs{
+    display: flex;
+}
+.rleftinputs{
+    width:40%;
+}
+.rrightinputs{
+    width:40%;
+    margin-left: 70px;
+}
+.rlabel1{
+    text-align: left;
+    font: normal normal normal 15px/15px Open Sans;
+    letter-spacing: 0.6px;
+    color: #77838F;
+    opacity: 1;
+}
+.rleftinputs input{
+    border: none;
+    border-bottom: 1px solid #5861AE;
+    background-color: #B9C0FD1A;
+    padding-left:5px;
+    width:300px;
+    margin-bottom: 20px;
+}
+.rleftinputs input:focus{
+    outline: none;
+}
+.rrightinputs input{
+    border: none;
+    border-bottom: 1px solid #5861AE;
+    background-color: #B9C0FD1A;
+    padding-left:5px;
+    width:300px;
+    margin-bottom: 20px;
+}
+.rrightinputs input:focus{
+    outline: none;
+}
+.rcheck-box1{
+    margin-top: 30px;
+}
+.rcheckboxtext{
+    padding-left: 70px;
+    text-decoration: underline;
+    font: normal normal normal 14px/20px Open Sans;
+    letter-spacing: 0.49px;
+    color: #5861AE;
+    opacity: 1;
+}
+.rsignupbtn{
+    background: #4552C1 0% 0% no-repeat padding-box;
+    color: white;
+    padding:10px 20px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 270px;
+    opacity: 1;
+}
+/* Footer */
+.rreferalfooter{
+    height: 80px;
+    background: #F8F9FF 0% 0% no-repeat padding-box;
+    box-shadow: 0px -3px 6px #0000000B;
+    opacity: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.rreferal{
+    font: normal normal 600 24px/26px Open Sans;
+    letter-spacing: 0.96px;
+    color: #5861AE;
+    opacity: 1;
+    padding-top: 15px;
+}
+.rterms{
+    font: italic normal normal 10px/26px Open Sans;
+    letter-spacing: 0.4px;
+    color: #3D3D43;
+    opacity: 1;
+}
+.rfootercontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 250px;
+    /* background: transparent url('../images/Footer.svg') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+}
+.raboutus{
+    font: normal normal medium 22px/24px Avenir;
+    letter-spacing: 0.18px;
+    color: #182838;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.raboutdesc{
+    text-align: left;
+    font: normal normal normal 15px/20px Avenir;
+    letter-spacing: 0.6px;
+    color: #3D3D43;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.rt-one{
+    font: normal normal medium 16px/24px Avenir;
+    letter-spacing: 0.16px;
+    color: #182838;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.rt-two, .t-three{
+    text-align: left;
+    font: normal normal normal 14px/24px Avenir;
+    letter-spacing: 0.14px;
+    color: #182838;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.rs-media{
+    font: normal normal medium 18px/24px Avenir;
+    letter-spacing: 0.18px;
+    color: #182838;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.ricons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rcopyright{
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color:#182838;
+}
+.rcopyright1{
+    padding-top: 10px;
+}
