@@ -24,9 +24,9 @@ const Login = () =>{
             res=> setToken(res.data.token)
         )
     }
-    // console.log(token)
+    console.log(token)
     if(token){
-        // console.log(user.firstname)
+        console.log(user.firstname)
         return <Navigate to="/createorder" />
     }
   return (
