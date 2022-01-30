@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Profilepic from "../images/profilepic.svg";
-import Homeimg from "../images/home-run (1).svg";
-import Plusimg from "../images/more.svg";
-import Listimg from "../images/list.svg";
-import Searchimg from "../images/search.svg";
+import Sidebar from "../components/sidebar";
+
 import { Link } from "react-router-dom";
 
 const allorder = {
@@ -35,26 +32,14 @@ const Getorder = () => {
   return (
     <>
       <div className="row">
-        <div className="col-md-1">
-          <div className="sidenav">
-            <div className="">
-              <button className="btn col-md-12">
-                <i class="fa fa-home fa-2x text-white"></i>
-              </button>
-            </div>
-            <div className="">
-              <button className="btn col-md-12">
-                <i class="fa fa-plus-circle fa-2x text-white"></i>
-              </button>
-            </div>
-            <div className="">
-              <Link to="/">
-                <button className="btn col-md-12">
-                  <i class="fa fa-bars fa-2x text-white"></i>
-                </button>
-              </Link>
-            </div>
-          </div>
+        <h2>Laundry</h2>
+      </div>
+      <div className="row">
+        <div
+          className="col-md-1"
+          style={{ backgroundColor: "var(--lightblue)" }}
+        >
+          <Sidebar />
         </div>
         <div className="col-md-11">
           <table className="table">

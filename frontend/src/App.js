@@ -12,7 +12,7 @@ function App() {
   const [token, setToken] = useState(null);
   return (
     <div className="App">
-      <store.Provider value={[token, setToken]}>
+      {/*<store.Provider value={[token, setToken]}>
         <BrowserRouter>
           <Routes>
             <Route exact path="/" element={<Login />} />
@@ -22,8 +22,8 @@ function App() {
             <Route exact path="/getorder" element={<Getorder />} />
           </Routes>
         </BrowserRouter>
-      </store.Provider>
-      {/*<Getorder/>*/}
+      </store.Provider>*/}
+      <Getorder />
     </div>
   );
 }
